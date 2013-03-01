@@ -41,7 +41,7 @@ SCREEN_DEV=True
 #GIT_BASE=https://github.com/openstack
 
 GIT_BASE=https://github.com/CiscoSystems
-GIT_BRANCH=master
+GIT_BRANCH=folsom
 
 # metering service
 CEILOMETER_REPO=${GIT_BASE}/ceilometer.git
