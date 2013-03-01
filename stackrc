@@ -38,8 +38,8 @@ SCREEN_DEV=True
 
 # Base GIT Repo URL
 # Another option is http://review.openstack.org/p
-GIT_BASE=https://github.com/openstack
-
+#GIT_BASE=https://github.com/openstack
+GIT_BASE=https://github.com/CiscoSystems
 # metering service
 CEILOMETER_REPO=${GIT_BASE}/ceilometer.git
 CEILOMETER_BRANCH=master
