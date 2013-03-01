@@ -38,48 +38,48 @@ SCREEN_DEV=True
 
 # Base GIT Repo URL
 # Another option is http://review.openstack.org/p
-GIT_BASE=https://github.com
+GIT_BASE=https://github.com/openstack
 
 # metering service
-CEILOMETER_REPO=${GIT_BASE}/openstack/ceilometer.git
+CEILOMETER_REPO=${GIT_BASE}/ceilometer.git
 CEILOMETER_BRANCH=master
 
 # ceilometer client library
-CEILOMETERCLIENT_REPO=${GIT_BASE}/openstack/python-ceilometerclient
+CEILOMETERCLIENT_REPO=${GIT_BASE}/python-ceilometerclient
 CEILOMETERCLIENT_BRANCH=master
 
 # volume service
-CINDER_REPO=${GIT_BASE}/openstack/cinder
+CINDER_REPO=${GIT_BASE}/cinder
 CINDER_BRANCH=master
 
 # volume client
-CINDERCLIENT_REPO=${GIT_BASE}/openstack/python-cinderclient
+CINDERCLIENT_REPO=${GIT_BASE}/python-cinderclient
 CINDERCLIENT_BRANCH=master
 
 # compute service
-NOVA_REPO=${GIT_BASE}/openstack/nova.git
+NOVA_REPO=${GIT_BASE}/nova.git
 NOVA_BRANCH=master
 
 # storage service
-SWIFT_REPO=${GIT_BASE}/openstack/swift.git
+SWIFT_REPO=${GIT_BASE}/swift.git
 SWIFT_BRANCH=master
 SWIFT3_REPO=https://github.com/fujita/swift3.git
 SWIFT3_BRANCH=master
 
 # python swift client library
-SWIFTCLIENT_REPO=${GIT_BASE}/openstack/python-swiftclient
+SWIFTCLIENT_REPO=${GIT_BASE}/python-swiftclient
 SWIFTCLIENT_BRANCH=master
 
 # image catalog service
-GLANCE_REPO=${GIT_BASE}/openstack/glance.git
+GLANCE_REPO=${GIT_BASE}/glance.git
 GLANCE_BRANCH=master
 
 # python glance client library
-GLANCECLIENT_REPO=${GIT_BASE}/openstack/python-glanceclient
+GLANCECLIENT_REPO=${GIT_BASE}/python-glanceclient
 GLANCECLIENT_BRANCH=master
 
 # unified auth system (manages accounts/tokens)
-KEYSTONE_REPO=${GIT_BASE}/openstack/keystone.git
+KEYSTONE_REPO=${GIT_BASE}/keystone.git
 KEYSTONE_BRANCH=master
 
 # a websockets/html5 or flash powered VNC console for vm instances
@@ -91,39 +91,39 @@ SPICE_REPO=http://anongit.freedesktop.org/git/spice/spice-html5.git
 SPICE_BRANCH=master
 
 # django powered web control panel for openstack
-HORIZON_REPO=${GIT_BASE}/openstack/horizon.git
+HORIZON_REPO=${GIT_BASE}/horizon.git
 HORIZON_BRANCH=master
 
 # python client library to nova that horizon (and others) use
-NOVACLIENT_REPO=${GIT_BASE}/openstack/python-novaclient.git
+NOVACLIENT_REPO=${GIT_BASE}/python-novaclient.git
 NOVACLIENT_BRANCH=master
 
 # consolidated openstack python client
-OPENSTACKCLIENT_REPO=${GIT_BASE}/openstack/python-openstackclient.git
+OPENSTACKCLIENT_REPO=${GIT_BASE}/python-openstackclient.git
 OPENSTACKCLIENT_BRANCH=master
 
 # python keystone client library to nova that horizon uses
-KEYSTONECLIENT_REPO=${GIT_BASE}/openstack/python-keystoneclient
+KEYSTONECLIENT_REPO=${GIT_BASE}/python-keystoneclient
 KEYSTONECLIENT_BRANCH=master
 
 # quantum service
-QUANTUM_REPO=${GIT_BASE}/openstack/quantum
+QUANTUM_REPO=${GIT_BASE}/quantum
 QUANTUM_BRANCH=master
 
 # quantum client
-QUANTUMCLIENT_REPO=${GIT_BASE}/openstack/python-quantumclient
+QUANTUMCLIENT_REPO=${GIT_BASE}/python-quantumclient
 QUANTUMCLIENT_BRANCH=master
 
 # Tempest test suite
-TEMPEST_REPO=${GIT_BASE}/openstack/tempest.git
+TEMPEST_REPO=${GIT_BASE}/tempest.git
 TEMPEST_BRANCH=master
 
 # heat service
-HEAT_REPO=${GIT_BASE}/openstack/heat.git
+HEAT_REPO=${GIT_BASE}/heat.git
 HEAT_BRANCH=master
 
 # python heat client library
-HEATCLIENT_REPO=${GIT_BASE}/openstack/python-heatclient.git
+HEATCLIENT_REPO=${GIT_BASE}/python-heatclient.git
 HEATCLIENT_BRANCH=master
 
 # ryu service
