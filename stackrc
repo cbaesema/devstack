@@ -52,11 +52,11 @@ CEILOMETERCLIENT_REPO=${GIT_BASE}/python-ceilometerclient
 CEILOMETERCLIENT_BRANCH=master
 
 # volume service
-CINDER_REPO=http://github.com/openstack/cinder
+CINDER_REPO=https://github.com/openstack/cinder
 CINDER_BRANCH=master
 
 # volume client
-CINDERCLIENT_REPO=http://github.com/openstack/python-cinderclient
+CINDERCLIENT_REPO=https://github.com/openstack/python-cinderclient
 CINDERCLIENT_BRANCH=master
 
 # compute service
