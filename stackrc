@@ -52,12 +52,12 @@ CEILOMETERCLIENT_REPO=${GIT_BASE}/python-ceilometerclient
 CEILOMETERCLIENT_BRANCH=master
 
 # volume service
-CINDER_REPO=${GIT_BASE}/cinder
-CINDER_BRANCH=${GIT_BRANCH}
+CINDER_REPO=http://github.com/openstack/cinder
+CINDER_BRANCH=folsom
 
 # volume client
-CINDERCLIENT_REPO=${GIT_BASE}/python-cinderclient
-CINDERCLIENT_BRANCH=${GIT_BRANCH}
+CINDERCLIENT_REPO=http://github.com/openstack/python-cinderclient
+CINDERCLIENT_BRANCH=folsom
 
 # compute service
 NOVA_REPO=${GIT_BASE}/nova.git
