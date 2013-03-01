@@ -39,7 +39,10 @@ SCREEN_DEV=True
 # Base GIT Repo URL
 # Another option is http://review.openstack.org/p
 #GIT_BASE=https://github.com/openstack
+
 GIT_BASE=https://github.com/CiscoSystems
+GIT_BRANCH=master
+
 # metering service
 CEILOMETER_REPO=${GIT_BASE}/ceilometer.git
 CEILOMETER_BRANCH=master
@@ -50,15 +53,15 @@ CEILOMETERCLIENT_BRANCH=master
 
 # volume service
 CINDER_REPO=${GIT_BASE}/cinder
-CINDER_BRANCH=master
+CINDER_BRANCH=${GIT_BRANCH}
 
 # volume client
 CINDERCLIENT_REPO=${GIT_BASE}/python-cinderclient
-CINDERCLIENT_BRANCH=master
+CINDERCLIENT_BRANCH=${GIT_BRANCH}
 
 # compute service
 NOVA_REPO=${GIT_BASE}/nova.git
-NOVA_BRANCH=master
+NOVA_BRANCH=${GIT_BRANCH}
 
 # storage service
 SWIFT_REPO=${GIT_BASE}/swift.git
@@ -72,15 +75,15 @@ SWIFTCLIENT_BRANCH=master
 
 # image catalog service
 GLANCE_REPO=${GIT_BASE}/glance.git
-GLANCE_BRANCH=master
+GLANCE_BRANCH=${GIT_BRANCH}
 
 # python glance client library
 GLANCECLIENT_REPO=${GIT_BASE}/python-glanceclient
-GLANCECLIENT_BRANCH=master
+GLANCECLIENT_BRANCH=${GIT_BRANCH}
 
 # unified auth system (manages accounts/tokens)
 KEYSTONE_REPO=${GIT_BASE}/keystone.git
-KEYSTONE_BRANCH=master
+KEYSTONE_BRANCH=${GIT_BRANCH}
 
 # a websockets/html5 or flash powered VNC console for vm instances
 NOVNC_REPO=https://github.com/kanaka/noVNC.git
@@ -92,11 +95,11 @@ SPICE_BRANCH=master
 
 # django powered web control panel for openstack
 HORIZON_REPO=${GIT_BASE}/horizon.git
-HORIZON_BRANCH=master
+HORIZON_BRANCH=${GIT_BRANCH}
 
 # python client library to nova that horizon (and others) use
 NOVACLIENT_REPO=${GIT_BASE}/python-novaclient.git
-NOVACLIENT_BRANCH=master
+NOVACLIENT_BRANCH=${GIT_BRANCH}
 
 # consolidated openstack python client
 #OPENSTACKCLIENT_REPO=${GIT_BASE}/python-openstackclient.git
@@ -106,19 +109,19 @@ OPENSTACKCLIENT_BRANCH=master
 
 # python keystone client library to nova that horizon uses
 KEYSTONECLIENT_REPO=${GIT_BASE}/python-keystoneclient
-KEYSTONECLIENT_BRANCH=master
+KEYSTONECLIENT_BRANCH=${GIT_BRANCH}
 
 # quantum service
 QUANTUM_REPO=${GIT_BASE}/quantum
-QUANTUM_BRANCH=master
+QUANTUM_BRANCH=${GIT_BRANCH}
 
 # quantum client
 QUANTUMCLIENT_REPO=${GIT_BASE}/python-quantumclient
-QUANTUMCLIENT_BRANCH=master
+QUANTUMCLIENT_BRANCH=${GIT_BRANCH}
 
 # Tempest test suite
 TEMPEST_REPO=${GIT_BASE}/tempest.git
-TEMPEST_BRANCH=master
+TEMPEST_BRANCH=${GIT_BRANCH}
 
 # heat service
 HEAT_REPO=${GIT_BASE}/heat.git
