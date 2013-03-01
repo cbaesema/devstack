@@ -53,11 +53,11 @@ CEILOMETERCLIENT_BRANCH=master
 
 # volume service
 CINDER_REPO=http://github.com/openstack/cinder
-CINDER_BRANCH=folsom
+CINDER_BRANCH=master
 
 # volume client
 CINDERCLIENT_REPO=http://github.com/openstack/python-cinderclient
-CINDERCLIENT_BRANCH=folsom
+CINDERCLIENT_BRANCH=master
 
 # compute service
 NOVA_REPO=${GIT_BASE}/nova.git
