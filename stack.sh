@@ -856,7 +856,7 @@ if is_service_enabled horizon; then
     git_clone $HORIZON_REPO $HORIZON_DIR $HORIZON_BRANCH $HORIZON_TAG
 fi
 if is_service_enabled quantum; then
-    git_clone $QUANTUM_CLIENT_REPO $QUANTUM_CLIENT_DIR $QUANTUM_CLIENT_BRANCH
+    git_clone $QUANTUMCLIENT_REPO $QUANTUM_CLIENT_DIR $QUANTUM_CLIENT_BRANCH
 fi
 if is_service_enabled quantum; then
     # quantum
