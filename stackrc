@@ -38,12 +38,12 @@ CEILOMETER_REPO=${GIT_BASE}/ceilometer.git
 CEILOMETER_BRANCH=master
 
 # volume service
-CINDER_REPO=https://github.com/openstack/cinder
-CINDER_BRANCH=master
+CINDER_REPO=${GIT_BASE}/cinder
+CINDER_BRANCH=${GIT_BRANCH}
 
 # volume client
-CINDERCLIENT_REPO=https://github.com/openstack/python-cinderclient
-CINDERCLIENT_BRANCH=master
+CINDERCLIENT_REPO=${GIT_BASE}/python-cinderclient
+CINDERCLIENT_BRANCH=${GIT_BRANCH}
 
 
 # compute service
@@ -52,7 +52,8 @@ NOVA_BRANCH=${GIT_BRANCH}
 
 # storage service
 SWIFT_REPO=${GIT_BASE}/swift.git
-SWIFT_BRANCH=master
+SWIFT_BRANCH=${GIT_BRANCH}
+
 SWIFT3_REPO=https://github.com/fujita/swift3.git
 SWIFT3_BRANCH=master
 
