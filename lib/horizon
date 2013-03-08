@@ -130,8 +130,8 @@ function install_horizon() {
     git_clone $HORIZON_REPO $HORIZON_DIR $HORIZON_BRANCH $HORIZON_TAG
 
     #installs horizon requires.txt to fix coe breakage    
-    horizon_requires=$HORIZON_DIR/horizon.egg-info/requires.txt
-    cp $FILES/horizon_requires.txt $horizon_requires
+    horizon_requires=$HORIZON_DIR/tools/pip-requires
+    cp $FILES/horizon_pip_requires.txt $horizon_requires
 }
 
 # start_horizon() - Start running processes, including screen
