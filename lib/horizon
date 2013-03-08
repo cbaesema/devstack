@@ -132,6 +132,11 @@ function install_horizon() {
     #installs horizon requires.txt to fix coe breakage    
     horizon_requires=$HORIZON_DIR/tools/pip-requires
     cp $FILES/horizon_pip_requires.txt $horizon_requires
+
+
+    # ``local_settings.py`` is used to override horizon default settings.
+    local_settings=$HORIZON_DIR/openstack_dashboard/local/local_settings.py
+    cp $FILES/horizon_settings.py $local_settings
 }
 
 # start_horizon() - Start running processes, including screen
