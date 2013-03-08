@@ -80,8 +80,8 @@ OPENSTACK_KEYSTONE_DEFAULT_ROLE = "Member"
 # OPENSTACK_SSL_NO_VERIFY = True
 
 HORIZON_CONFIG = {
-    'dashboards': ('project', 'admin', 'settings',),
-    'default_dashboard': 'project',
+    'dashboards': ('nova', 'syspanel', 'settings',),
+    'default_dashboard': 'nova',
 }
 
 # The OPENSTACK_KEYSTONE_BACKEND settings can be used to identify the
