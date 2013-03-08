@@ -529,6 +529,10 @@ function install_nova() {
     fi
 
     git_clone $NOVA_REPO $NOVA_DIR $NOVA_BRANCH
+
+    #installs horizon requires.txt to fix coe breakage    
+    nova_requires=/opt/stack/nova/tools/pip-requires
+    cp $FILES/nova_pip_requires.txt $nova_requires
 }
 
 # start_nova_api() - Start the API process ahead of other things
