@@ -3,7 +3,6 @@ disable_service c-api
 disable_service c-sch 
 disable_service c-vol 
 disable_service cinder
-enable service n-vol
 enable_service q-svc
 enable_service q-agt
 enable_service q-dhcp
