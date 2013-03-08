@@ -7,6 +7,7 @@ TEMPLATE_DEBUG = DEBUG
 PROD = False
 USE_SSL = False
 
+
 # Set SSL proxy settings:
 # For Django 1.4+ pass this header from the proxy after terminating the SSL,
 # and don't forget to strip it from the client's request.
