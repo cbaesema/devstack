@@ -8,3 +8,8 @@ enable_service q-meta
 enable_service quantum
 #optional
 enable_service tempest
+DATABASE_PASSWORD=password
+RABBIT_PASSWORD=password
+SERVICE_TOKEN=password
+SERVICE_PASSWORD=password
+ADMIN_PASSWORD=password
