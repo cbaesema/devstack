@@ -1,10 +1,12 @@
-disable_service n-net
+disable_service n-net c-api c-sch c-vol cinder
+enable service n-vol
 enable_service q-svc
 enable_service q-agt
 enable_service q-dhcp
 enable_service q-l3
 enable_service q-meta
 enable_service quantum
+SCREEN_LOGDIR=/tmp
 #optional
 enable_service tempest
 DATABASE_PASSWORD=password
