@@ -71,15 +71,15 @@ SWIFT3_BRANCH=master
 
 # python swift client library
 SWIFTCLIENT_REPO=${GIT_BASE}/python-swiftclient
-SWIFTCLIENT_BRANCH=master
+SWIFTCLIENT_BRANCH=${GIT_BRANCH}
 
 # image catalog service
-GLANCE_REPO=${GIT_BASE}/glance.git
-GLANCE_BRANCH=${GIT_BRANCH}
+GLANCE_REPO=http://github.com/openstack/glance.git
+GLANCE_BRANCH=master
 
 # python glance client library
-GLANCECLIENT_REPO=${GIT_BASE}/python-glanceclient
-GLANCECLIENT_BRANCH=${GIT_BRANCH}
+GLANCECLIENT_REPO=http://github.com/openstack/python-glanceclient
+GLANCECLIENT_BRANCH=master
 
 # unified auth system (manages accounts/tokens)
 KEYSTONE_REPO=${GIT_BASE}/keystone.git
